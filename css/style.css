@@ -6,6 +6,10 @@
     font-family: 'Pleasewritemeasong';
     src: url('/fonts/Pleasewritemeasong.ttf');
 }
+html{
+    width: 100%;
+    height: 100%;
+}
 header {
     height: 100vh;
 
