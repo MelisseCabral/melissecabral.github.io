@@ -1,5 +1,10 @@
 header {
     height: 100vh;
+
+
+}
+body{
+    color: white;
 }
 nav {
     top: 0;
@@ -15,12 +20,19 @@ nav {
 h1{
     font-family: 'CollectionFree';
 }
+a{
+    color: whitesmoke !important;
+}
 .jumbotron {
     height: inherit;
     text-align: center;
+    padding-top: 20vh !important;
+    color: white;
+    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url('https://www.whitebearsolutions.com/wp-content/uploads/2019/04/artificial-intelligence-blur-close-up-546819-1-4200x2100.jpg');
+    background-size: cover;
 }
 .jumbotron-fluid{
-    padding-top: 20vh !important;
+
 }
 .photo_profile {
     height: 30vh;
