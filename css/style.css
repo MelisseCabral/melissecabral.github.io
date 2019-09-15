@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'CollectionFree';
+    src: url('/fonts/CollectionFree.otf');
+}
+@font-face {
+    font-family: 'Pleasewritemeasong';
+    src: url('/fonts/Pleasewritemeasong.ttf');
+}
 header {
     height: 100vh;
 
@@ -5,6 +13,7 @@ header {
 }
 body{
     color: white;
+
 }
 nav {
     top: 0;
@@ -12,23 +21,23 @@ nav {
     position: absolute;
     width: 100%; !important;
 }
-@font-face {
-    font-family: 'CollectionFree';
-    src: url('/fonts/CollectionFree.otf');
-}
 
 h1{
     font-family: 'CollectionFree';
 }
 a{
     color: whitesmoke !important;
+    font-family: 'Pleasewritemeasong' !important;
+    text-transform: uppercase;
+    font-weight: 200 !important;
 }
 .jumbotron {
     height: inherit;
     text-align: center;
     padding-top: 20vh !important;
     color: white;
-    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url('https://www.whitebearsolutions.com/wp-content/uploads/2019/04/artificial-intelligence-blur-close-up-546819-1-4200x2100.jpg');
+    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),
+    url('https://github.com/MelisseCabral/melissecabral.github.io/blob/master/images/dev.jpg?raw=true');
     background-size: cover;
 }
 .jumbotron-fluid{
