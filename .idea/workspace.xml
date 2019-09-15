@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b38e75-225f-411b-824f-680d2e77bd96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="465">
+              <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="43" column="116" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
+            <state relative-caret-position="420">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -165,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568560761614</updated>
-      <workItem from="1568560762684" duration="10025000" />
+      <workItem from="1568560762684" duration="10408000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1568567991841</created>
@@ -237,11 +238,32 @@
       <option name="project" value="LOCAL" />
       <updated>1568574810303</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add whats app link">
+      <created>1568575012546</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568575012546</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add whats app link">
+      <created>1568575233280</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568575233280</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Unselectble h1">
+      <created>1568575504726</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568575504726</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10025000" />
+    <option name="totallyTimeSpent" value="10408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -272,7 +294,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Add whats app link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add whats app link" />
+    <MESSAGE value="Unselectble h1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unselectble h1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Documents/Programming/Ilumini/dist/production/assets/css/main-material.css">
@@ -304,15 +327,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="43" column="116" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
+        <state relative-caret-position="420">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
