@@ -21,6 +21,10 @@ nav {
     position: absolute;
     width: 100%; !important;
 }
+footer{
+    background-color: #1d2124;
+    color: #FFF !important;
+}
 
 h1{
     font-family: 'CollectionFree';
@@ -38,6 +42,9 @@ a{
     text-transform: uppercase;
     font-weight: 200 !important;
     font-size: 20px;
+}
+.brand{
+    font-family: 'CollectionFree';
 }
 .li-social{
     width: auto;
