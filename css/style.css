@@ -61,3 +61,18 @@ a{
     height: 20vh;
     border-radius: 50%;
 }
+.contactWtt{
+    color: white;
+    background-color: #1ebea5;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 3em;
+    width: 3em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+.wtt {
+    width: 2em;
+}
