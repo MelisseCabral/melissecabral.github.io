@@ -37,12 +37,12 @@ a{
     padding-right: 2em;
     padding-bottom: 2em;
     background-color: transparent;
-    float: left;
     list-style-type: none;
 
 }
 .ul-social{
     text-align: center;
+    display: inline-flex;
 }
 .jumbotron {
     height: inherit;
