@@ -59,6 +59,7 @@ a{
     background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),
     url('https://github.com/MelisseCabral/melissecabral.github.io/blob/master/images/dev.jpg?raw=true');
     background-size: cover;
+    border-radius: 0 !important;
 }
 .jumbotron-fluid{
 
