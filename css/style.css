@@ -18,6 +18,7 @@ header {
 body{
     color: white;
 
+    font-weight: 200;
 }
 nav {
     top: 0;
@@ -28,6 +29,7 @@ nav {
 footer{
     background-color: #1d2124;
     color: #FFF !important;
+    font-family: monospace;
 }
 
 h1{
@@ -93,4 +95,10 @@ a{
 }
 .wtt {
     width: 2em;
+}
+.footer-ul{
+    width: 20px;
+}
+.infoFooter{
+    text-align: center;
 }
