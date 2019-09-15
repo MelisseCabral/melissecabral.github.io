@@ -32,6 +32,18 @@ a{
     text-transform: uppercase;
     font-weight: 200 !important;
 }
+.li-social{
+    width: auto;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    background-color: transparent;
+    float: left;
+    list-style-type: none;
+
+}
+.ul-social{
+    text-align: center;
+}
 .jumbotron {
     height: inherit;
     text-align: center;
