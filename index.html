@@ -15,8 +15,17 @@
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
     <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
 </head>
-<body>
+<body onload="{ let l = document.getElementById('overlay'); l.classList.add('hidden') }">
+    <div class="overlay" id="overlay">
+        <div class="LoaderBalls">
+            <div class="LoaderBalls__item"></div>
+            <div class="LoaderBalls__item"></div>
+            <div class="LoaderBalls__item"></div>
+        </div>
+    </div>
+
     <header>
         <nav>
             <ul class="nav justify-content-center">
@@ -57,30 +66,103 @@
     </header>
     <main>
 
-    </main>
+        <section id="skills" style="display: none">
+            <h2>Habilidades</h2>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small pt-4">
+            <div class="container-fluid text-center" >
+                <div class="container" style="display: flex">
+                    <div class="col-md-6 skills-wrapper">
+                        <div class="wrapper-skill">
+                            <div class = "css second">CSS<span>50%</span></div>
+                        </div>
+                        <div class="wrapper-skill">
+                            <div class = "htm third">HTML<span>71%</span></div>
+                        </div>
+                        <div class="wrapper-skill">
+                            <div class = "javascript fourth">JAVASCRIPT<span>64%</span></div>
+                        </div>
+                    </div>
 
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3" style="text-align: center">
-
-                    <!-- Content -->
-                    <h1>Melisse Cabral</h1>
-
+                    <div class="col-md-6 skills-wrapper">
+                        <div class="wrapper-skill">
+                            <div class = "java first">Java<span>87%</span></div>
+                        </div>
+                    </div>
 
                 </div>
-                <!-- Grid column -->
+            </div>
+        </section>
 
+        <section id="education" style="display: none">
+            <h2>Educação</h2>
+
+            <div class="container-fluid text-center" style="display: flex">
+                <div class="col-md-6">
+                    <article>
+                        <h4>Graduação em Ciência da Computação</h4>
+                        <h5>
+                            Universidade Federal de Campina Grande
+                        </h5>
+                        <p>2014 - 2017 (Interrompida)</p>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article>
+                        <h4>Graduação em Engenharia da Computação</h4>
+                        <h5>
+                            Universidade Federal do Ceará
+                        </h5>
+                        <p>2017 - Atual</p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="xp" style="display: none">
+            <h2>Experiências</h2>
+
+            <div class="container-fluid text-center" style="display: flex">
+                <div class="col-md-6">
+                    <article>
+                        <h4>Estágio Superviosionado</h4>
+                        <h5>
+                            UFC / Secretaria de Saúde de Sobral
+                        </h5>
+                        <p>HGHJFSJHDGFJSGDFGJSHDFG</p>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article>
+                        <h4>Estágio Superviosionado</h4>
+                        <h5>
+                            UFC / Secretaria de Saúde de Sobral
+                        </h5>
+                        <p>HGHJFSJHDGFJSGDFGJSHDFG</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="page-footer font-small pt-4">
+
+        <div class="container-fluid text-center text-md-left">
+
+            <div class="row">
+
+                <div class="col-md-6 mt-md-0 mt-3" style="text-align: center">
+
+                    <h1>Melisse Cabral</h1>
+
+                </div>
                 <hr class="clearfix w-100 d-md-none pb-3">
 
-                <!-- Grid column -->
                 <div class="col-md-6 mb-md-0 mb-3">
                     <p>Av. Dom José, 2285 - Sobral, CE</p>
                     <p>melissecabral@gmail.com</p>
@@ -94,10 +176,8 @@
                 </div>
 
             </div>
-            <!-- Grid row -->
 
         </div>
-        <!-- Footer Links -->
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2019 Copyright
