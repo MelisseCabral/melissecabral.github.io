@@ -7,8 +7,11 @@
     src: url('/fonts/Pleasewritemeasong.ttf');
 }
 html{
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
+}
+body{
+    height: 100% !important;
 }
 header {
     height: 100vh;
