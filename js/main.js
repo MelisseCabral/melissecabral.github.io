@@ -8,7 +8,7 @@ var css = function(){
     document.querySelector(".css").className = "css1";
 };
 var htm = function(){
-    document.querySelector(".htm").className = "htm1";
+    document.querySelector(".html").className = "htm1";
 };
 var jav = function(){
     document.querySelector(".javascript").className = "javascript1";

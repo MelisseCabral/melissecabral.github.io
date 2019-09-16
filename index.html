@@ -17,7 +17,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
 </head>
-<body onload="{ let l = document.getElementById('overlay'); l.classList.add('hidden') }">
+<body onload="loaded()">
     <div class="overlay" id="overlay">
         <div class="LoaderBalls">
             <div class="LoaderBalls__item"></div>
@@ -28,33 +28,39 @@
 
     <header>
         <nav>
-            <ul class="nav justify-content-center">
+            <ul class="nav justify-content-center noselectble">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Bio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiência</a>
+                    <a class="nav-link" onclick="{smoothScroll(document.getElementById('skills'))}">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Educação</a>
+                    <a class="nav-link" onclick="{smoothScroll(document.getElementById('xp'))}">Experiência</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portifolio</a>
+                    <a class="nav-link" onclick="{smoothScroll(document.getElementById('education'))}">Educação</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" onclick="{smoothScroll(document.getElementById('artigos'))}">Artigos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="{smoothScroll(document.getElementById('portifolio'))}">Portifolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="{smoothScroll(document.getElementById('contact'))}">Contato</a>
                 </li>
             </ul>
         </nav>
         <div class="jumbotron">
 
             <div class="container">
-                <img class='photo_profile' src="images/Profile.jpeg">
+                <img class='photo_profile noselectble' src="images/Profile.jpeg">
                 <h1 class="display-4">Melisse Cabral</h1>
                 <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             </div>
 
-            <ul class="ul-social">
+            <ul class="ul-social noselectble">
                 <li class="li-social" ><a target="_blank" href="https://github.com/MelisseCabral"><img src="images/gh.png"></a></li>
                 <li class="li-social"><a target="_blank" href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"> <img src="images/in.png"></a></li>
                 <li class="li-social"><a target="_blank" href="https://www.facebook.com/melisse.cabral?ref=bookmarks"> <img src="images/fb.png"></a></li>
@@ -66,33 +72,96 @@
     </header>
     <main>
 
-        <section id="skills" style="display: none">
+        <section id="skills" >
             <h2>Habilidades</h2>
 
             <div class="container-fluid text-center" >
-                <div class="container" style="display: flex">
-                    <div class="col-md-6 skills-wrapper">
-                        <div class="wrapper-skill">
-                            <div class = "css second">CSS<span>50%</span></div>
+
+                <div class="container" style="display: block">
+                    <div class="col-md-4 skills-wrapper">
+                        <h4 style="text-align: left">Desenvolvimento</h4>
+                        <div class="progress">
+                            <div class="progress-bar java" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JAVA 70%</div>
                         </div>
-                        <div class="wrapper-skill">
-                            <div class = "htm third">HTML<span>71%</span></div>
+                        <div class="progress">
+                            <div class="progress-bar swift" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">SWIFT 65%</div>
                         </div>
+                        <div class="progress">
+                            <div class="progress-bar c" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">C# 50%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar php" role="progressbar" style="width: 30%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP 30%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 skills-wrapper">
+                        <h4 style="text-align: left; color: white;">hide</h4>
                         <div class="wrapper-skill">
-                            <div class = "javascript fourth">JAVASCRIPT<span>64%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar js" role="progressbar" style="width: 80%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">JAVASCRIPT 80%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar css" role="progressbar" style="width: 70%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">CSS 70%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar html" role="progressbar" style="width: 90%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">HTML 90%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar python" role="progressbar" style="width: 90%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">PYTHON 90%</div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 skills-wrapper">
+
+
+                    <div class="col-md-4 skills-wrapper">
+                        <h4 style="text-align: left">Outros</h4>
                         <div class="wrapper-skill">
-                            <div class = "java first">Java<span>87%</span></div>
+                            <div class="progress">
+                                <div class="progress-bar autocad" role="progressbar" style="width: 80%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">AUTO CAD 80%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar kicad" role="progressbar" style="width: 70%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">KICAD 70%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar arduino" role="progressbar" style="width: 80%;" aria-valuenow="75"
+                                     aria-valuemin="0" aria-valuemax="100">ARDUINO 80%</div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
+        <section id="xp" style="display: none">
+            <h2>Experiências</h2>
 
+            <div class="container-fluid text-center" style="display: flex">
+                <div class="col-md-6">
+                    <article>
+                        <h4>Estágio Superviosionado</h4>
+                        <h5>
+                            UFC / Secretaria de Saúde de Sobral
+                        </h5>
+                        <p>HGHJFSJHDGFJSGDFGJSHDFG</p>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article>
+                        <h4>Estágio Superviosionado</h4>
+                        <h5>
+                            UFC / Secretaria de Saúde de Sobral
+                        </h5>
+                        <p>HGHJFSJHDGFJSGDFGJSHDFG</p>
+                    </article>
+                </div>
+            </div>
+        </section>
         <section id="education" style="display: none">
             <h2>Educação</h2>
 
@@ -119,38 +188,47 @@
 
             </div>
         </section>
+        <section id="publications" style="display: none">
+            <h2>Publicações</h2>
 
+            <div class="container-fluid text-center" style="display: flex">
 
-        <section id="xp" style="display: none">
-            <h2>Experiências</h2>
+            </div>
+        </section>
+        <section id="portifolio">
+            <h2>Portifolio</h2>
 
             <div class="container-fluid text-center" style="display: flex">
                 <div class="col-md-6">
                     <article>
-                        <h4>Estágio Superviosionado</h4>
+                        <h4>Graduação em Ciência da Computação</h4>
                         <h5>
-                            UFC / Secretaria de Saúde de Sobral
+                            Universidade Federal de Campina Grande
                         </h5>
-                        <p>HGHJFSJHDGFJSGDFGJSHDFG</p>
+                        <p>2014 - 2017 (Interrompida)</p>
                     </article>
                 </div>
 
                 <div class="col-md-6">
                     <article>
-                        <h4>Estágio Superviosionado</h4>
+                        <h4>Graduação em Engenharia da Computação</h4>
                         <h5>
-                            UFC / Secretaria de Saúde de Sobral
+                            Universidade Federal do Ceará
                         </h5>
-                        <p>HGHJFSJHDGFJSGDFGJSHDFG</p>
+                        <p>2017 - Atual</p>
                     </article>
                 </div>
+
             </div>
         </section>
 
 
+
+
+
     </main>
 
-    <footer class="page-footer font-small pt-4">
+    <footer class="page-footer font-small pt-4" id="contact">
 
         <div class="container-fluid text-center text-md-left">
 
@@ -167,11 +245,15 @@
                     <p>Av. Dom José, 2285 - Sobral, CE</p>
                     <p>melissecabral@gmail.com</p>
                     <p>+55 85 9 99616120</p>
-                    <ul class="ul-social">
-                        <li class="li-social" ><a target="_blank" href="https://github.com/MelisseCabral"><img class="footer-ul" src="images/gh.png"></a></li>
-                        <li class="li-social"><a target="_blank" href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"> <img class="footer-ul" src="images/in.png"></a></li>
-                        <li class="li-social"><a target="_blank" href="https://www.facebook.com/melisse.cabral?ref=bookmarks"> <img class="footer-ul" src="images/fb.png"></a></li>
-                    </ul>
+                    <div class="footer_actions">
+                        <a class="downloadCV noselectble">Download CV</a>
+                        <ul class="ul-social noselectble">
+                            <li class="li-social" ><a target="_blank" href="https://github.com/MelisseCabral"><img class="footer-ul" src="images/gh.png"></a></li>
+                            <li class="li-social"><a target="_blank" href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"> <img class="footer-ul" src="images/in.png"></a></li>
+                            <li class="li-social"><a target="_blank" href="https://www.facebook.com/melisse.cabral?ref=bookmarks"> <img class="footer-ul" src="images/fb.png"></a></li>
+                        </ul>
+                    </div>
+
 
                 </div>
 
@@ -185,6 +267,36 @@
         <!-- Copyright -->
 
     </footer>
+    <script>
+
+        window.smoothScroll = function(target) {
+            var scrollContainer = target;
+            do { //find scroll container
+                scrollContainer = scrollContainer.parentNode;
+                if (!scrollContainer) return;
+                scrollContainer.scrollTop += 1;
+            } while (scrollContainer.scrollTop == 0);
+
+            var targetY = 0;
+            do { //find the top of target relatively to the container
+                if (target == scrollContainer) break;
+                targetY += target.offsetTop;
+            } while (target = target.offsetParent);
+
+            scroll = function(c, a, b, i) {
+                i++; if (i > 30) return;
+                c.scrollTop = a + (b - a) / 30 * i;
+                setTimeout(function(){ scroll(c, a, b, i); }, 20);
+            }
+            // start scrolling
+            scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+        }
+
+        function loaded() {
+            let l = document.getElementById('overlay'); l.classList.add('hidden')
+        }
+
+    </script>
     <!-- Footer -->
 
 </body>
