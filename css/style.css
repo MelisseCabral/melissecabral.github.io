@@ -23,7 +23,9 @@ main{
     padding-bottom: 8em;
     display: grid !important;
 }
-
+article{
+    width: 100%;
+}
 nav {
     top: 0;
     left: 0;
@@ -72,15 +74,6 @@ span{
 }
 li{
     list-style: none;
-}
-.downloadCV{
-    border: 1px white solid;
-    border-radius: 25px;
-    padding: 6px;
-    font-family: "Pleasewritemeasong" !important;
-    text-transform: none !important;
-    text-align: center;
-    margin-bottom: 6px;
 }
 .footer_actions{
     display: inline-grid;
@@ -136,6 +129,7 @@ li{
     width: 3em;
     text-align: center;
     padding-top: 0.5em;
+    z-index: 99;
 }
 .wtt {
     width: 2em;
@@ -205,45 +199,6 @@ li{
     border-radius: 25px !important;
     margin: 2em 0 2em 0;
 }
-.java{
-    width: 70%;
-    background-color: red !important;
-}
-.swift{
-    width: 65%;
-    background-color: orange !important;
-}
-.c {
-    width: 65%;
-    background-color: #005cbf !important;
-}
-.js {
-    width: 80%;
-    background-color: #ffc107 !important;
-}
-.html {
-    width: 90%;
-    background-color: orange !important;
-}
-.css {
-    width: 70%;
-    background-color: #005cbf !important;
-}
-.python {
-    width: 90%;
-    background-color: #007bff !important;
-}
-.php{
-    width: 30%;
-}
-.autocad {
-    width: 80%;
-    background-color: red !important;
-}
-.arduino{
-    width: 70%;
-    background-color: #1ebea5 !important;
-}
 
 .skills-wrapper{
     float: left;
@@ -251,4 +206,72 @@ li{
 .container{
     margin-bottom: 2em;
 }
+.card{
+    width: 18rem;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-color: white !important;
+}
+.btn{
+    border-radius: 20px !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 1px white solid !important;
+}
+.subtitle-card{
+    font-size: 14px !important;
+}
+.card-text{
+    font-size: 12px;
+}
+.educ-card{
+    height: 30vh !important;
+}
+.card{
+    min-height: 20vh!important;
+    margin: 2em 2em 0 2em;
+    float: left;
+    width: 100%;
+}
+.card-img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.card-portfolio{
 
+}
+.title-publication{
+    text-align: left;
+}
+.resume-article{
+    text-align: left;
+}
+.card-group{
+    width: 100%;
+}
+.btn-purple{
+    border-color: rgb(255,0,150) !important;
+    color: rgb(255,0,150) !important;
+    min-width: 20vh;
+    float: right;
+}
+.group-articles{
+    display: grid !important;
+}
+.title-article{
+    text-align: left !important;
+}
+a:hover
+{
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+}
+.grow:hover
+{
+    -webkit-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    transform: scale(1.06);
+}
