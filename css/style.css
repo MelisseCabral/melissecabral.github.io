@@ -230,7 +230,6 @@ li{
     height: 30vh !important;
 }
 .card{
-    min-height: 20vh!important;
     margin: 2em 2em 0 2em;
     float: left;
     width: 100%;
