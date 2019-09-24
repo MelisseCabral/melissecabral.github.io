@@ -211,6 +211,8 @@ li{
     border-radius: 20px !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-color: white !important;
+    margin: 2em 2em 0 2em;
+    float: left;
 }
 .btn{
     border-radius: 20px !important;
@@ -229,11 +231,6 @@ li{
 .educ-card{
     height: 30vh !important;
 }
-.card{
-    margin: 2em 2em 0 2em;
-    float: left;
-    width: 100%;
-}
 .card-img{
     width: 100% !important;
     height: 100% !important;
@@ -251,13 +248,16 @@ li{
     width: 100%;
 }
 .btn-purple{
-    border-color: rgb(255,0,150) !important;
-    color: rgb(255,0,150) !important;
+    border-color: #6c5ce7 !important;
+    color: #6c5ce7 !important;
     min-width: 20vh;
     float: right;
 }
 .group-articles{
     display: grid !important;
+}
+.group-articles.card{
+    max-width: 300px !important;
 }
 .title-article{
     text-align: left !important;
@@ -273,4 +273,32 @@ a:hover
     -webkit-transform: scale(1.06);
     -ms-transform: scale(1.06);
     transform: scale(1.06);
+}
+.second-text{
+    font-family: 'Pleasewritemeasong';
+}
+#services{
+    margin-top: 2em;
+    padding-bottom: 2em;
+    background-color: #6c5ce7 !important;
+}
+#publications{
+    background-color: #6c5ce7 !important;
+}
+.box1{
+    color: whitesmoke;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 2em;
+}
+.bigicon{
+    font-size: 50px !important;
+}
+.describe-service{
+    color: #b2bec3 !important;
+}
+.bottom-btn{
+    margin-top: 1em;
+    position: inherit;
+    bottom: 20px;
 }
