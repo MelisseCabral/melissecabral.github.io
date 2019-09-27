@@ -106,8 +106,7 @@ li{
     text-align: center;
     padding-top: 20vh !important;
     color: white;
-    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)),
-    url('/images/dev.jpg');
+    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url('../../images/dev.jpg');
     background-size: cover;
     border-radius: 0 !important;
 }
@@ -239,9 +238,6 @@ li{
 .card-text{
     font-size: 12px;
 }
-.educ-card{
-    height: 30vh !important;
-}
 .card-img{
     width: 100% !important;
     height: 100% !important;
@@ -261,7 +257,7 @@ li{
 .btn-purple{
     border-color: #6c5ce7 !important;
     color: #6c5ce7 !important;
-    min-width: 20vh;
+    min-width: 20%;
     float: right;
 }
 .group-articles{
@@ -295,7 +291,6 @@ a:hover
 
 }
 .container-services{
-    max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -304,8 +299,8 @@ a:hover
 }
 .box1{
     color: whitesmoke;
-    min-width: 400px;
-    max-width: 500px;
+    min-width: 50% !important;
+    max-width: 90%;
     padding: 2em;
     float: left;
 }
@@ -317,7 +312,6 @@ a:hover
 }
 .bottom-btn{
     margin-top: 1em;
-    position: inherit;
     bottom: 20px;
 }
 #bio{
