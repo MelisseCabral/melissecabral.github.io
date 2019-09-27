@@ -398,16 +398,16 @@
                     <form action = "javascript:sendEmail();">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
                         </div>
                         <div class="form-group">
-                            <label for="subject">Nome</label>
-                            <input type="text" required class="form-control" id="subject" name="subject" placeholder="João">
+                            <label for="name">Nome</label>
+                            <input type="text" required class="form-control" id="name" placeholder="João">
                         </div>
 
                         <div class="form-group">
                             <label for="body">Mensagem</label>
-                            <textarea class="form-control" id="body" name="body" rows="3"></textarea>
+                            <textarea class="form-control" id="body" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn purple mb-2">Enviar</button>
                     </form>
@@ -513,7 +513,7 @@
                 SecureToken : "6731b6dc-9c6c-4c70-87aa-33cdc850c217",
                 To : 'melissecabral@gmail.com',
                 From : "mr_tr@ymail.com",
-                Subject : document.getElementById('subject').value,
+                Subject : document.getElementById('name').value,
                 Body : 'Nome : ' + document.getElementById('name').value + " Mensagem :" + document.getElementById('body').value +
                     "Email : " + document.getElementById('email').value
             }).then(

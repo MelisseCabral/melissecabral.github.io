@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99b38e75-225f-411b-824f-680d2e77bd96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="399" column="60" lean-forward="true" selection-start-line="399" selection-start-column="60" selection-end-line="399" selection-end-column="60" />
+            <state relative-caret-position="112">
+              <caret line="515" column="55" selection-start-line="515" selection-start-column="55" selection-end-line="515" selection-end-column="55" />
               <folding>
                 <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -45,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="-717">
               <caret line="260" column="32" selection-start-line="260" selection-start-column="32" selection-end-line="260" selection-end-column="32" />
             </state>
           </provider>
@@ -110,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
@@ -120,7 +121,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MelisseCabral" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MelisseCabral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MelisseCabral" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MelisseCabral" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -184,7 +200,7 @@
       <workItem from="1569515364434" duration="124000" />
       <workItem from="1569592252805" duration="1835000" />
       <workItem from="1569596863195" duration="171000" />
-      <workItem from="1569614564047" duration="8824000" />
+      <workItem from="1569614564047" duration="9461000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1568567991841</created>
@@ -431,14 +447,36 @@
       <option name="project" value="LOCAL" />
       <updated>1569627722611</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Insert publications and other infos">
+      <created>1569627786551</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1569627786551</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Insert publications and other infos">
+      <created>1569627846170</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1569627846170</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Insert publications and other infos">
+      <created>1569628459424</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1569628459424</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52912000" />
+    <option name="totallyTimeSpent" value="53549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14944237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,15 +552,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="-717">
           <caret line="260" column="32" selection-start-line="260" selection-start-column="32" selection-end-line="260" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="399" column="60" lean-forward="true" selection-start-line="399" selection-start-column="60" selection-end-line="399" selection-end-column="60" />
+        <state relative-caret-position="112">
+          <caret line="515" column="55" selection-start-line="515" selection-start-column="55" selection-end-line="515" selection-end-column="55" />
           <folding>
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
