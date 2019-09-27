@@ -510,11 +510,12 @@
         });
         function sendEmail() {
             Email.send({
-                SecureToken : "6376d1ad-a7d0-415d-ae4a-ae3439992c95",
+                SecureToken : "6731b6dc-9c6c-4c70-87aa-33cdc850c217",
                 To : 'melissecabral@gmail.com',
-                From : "melissecabral@07.com",
+                From : "mr_tr@ymail.com",
                 Subject : document.getElementById('subject').value,
-                Body : document.getElementById('body').value
+                Body : 'Nome : ' + document.getElementById('name').value + " Mensagem :" + document.getElementById('body').value +
+                    "Email : " + document.getElementById('email').value
             }).then(
                 message => alert(message)
             );
