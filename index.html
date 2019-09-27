@@ -378,13 +378,10 @@
 
                     <h1>Melisse Cabral</h1>
 
-                </div>
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <div class="col-md-6 mb-md-0 mb-3">
                     <p>Av. Dom José, 2285 - Sobral, CE</p>
                     <p>melissecabral@gmail.com</p>
                     <p>+55 85 9 99616120</p>
+
                     <div class="footer_actions">
                         <a href="https://drive.google.com/file/d/11yPF2SNXh0mREj9rXNDT-wVx3Mm-tA-9/view" target="_blank" class="btn btn-transparent noselectble">Download CV</a>
                         <ul class="ul-social noselectble">
@@ -393,9 +390,29 @@
                             <li class="li-social grow"><a target="_blank" href="https://www.facebook.com/melisse.cabral?ref=bookmarks"> <img class="footer-ul" src="images/fb.png"></a></li>
                         </ul>
                     </div>
-
-
                 </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+
+                <div class="col-md-6 mb-md-0 mb-3" style="padding: 0em 5em 2em 2em;">
+                    <form action='mailto:melissecabral@gmail.com' method="post">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="email_subject">Nome</label>
+                            <input type="text" required class="form-control" id="email_subject" placeholder="João">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="msg">Mensagem</label>
+                            <textarea class="form-control" id="msg" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn purple mb-2">Enviar</button>
+                    </form>
+                </div>
+
 
             </div>
 
@@ -490,6 +507,10 @@
                 }
             }
         });
+        function sendEmail() {
+            let url = "mailto:melissecabral@gmail.com?subject="+ document.getElementById('subject').value +";body="+document.getElementById('msg').value
+            return url;
+        }
     </script>
     <!-- Footer -->
 

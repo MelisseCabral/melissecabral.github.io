@@ -100,6 +100,7 @@ li{
 .ul-social{
     text-align: center;
     display: inline-flex;
+    padding-top: 2em;
 }
 .jumbotron {
     height: inherit;
@@ -254,6 +255,10 @@ li{
     color: #6c5ce7 !important;
     min-width: 20%;
     float: right;
+}
+.purple{
+    background-color: #6c5ce7 !important;
+    color: whitesmoke !important;
 }
 .group-articles{
     display: grid !important;
