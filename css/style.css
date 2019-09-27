@@ -106,7 +106,7 @@ li{
     text-align: center;
     padding-top: 20vh !important;
     color: white;
-    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url('../../images/dev.jpg');
+    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url('https://github.com/MelisseCabral/melissecabral.github.io/blob/master/images/dev.jpg?raw=true');
     background-size: cover;
     border-radius: 0 !important;
 }
@@ -131,16 +131,11 @@ li{
     z-index: 99;
 }
 .fab{
-    border-radius: 50% !important;
-    border: 1px rgb(255,0,150) solid !important;
-    bottom: 30px;
-    right: 30px;
-    height: 3em;
-    width: 3em;
+
     text-align: center;
     color: rgb(255,0,150) !important;
-
 }
+
 .wtt {
     width: 2em;
 }
