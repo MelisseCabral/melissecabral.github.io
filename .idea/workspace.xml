@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99b38e75-225f-411b-824f-680d2e77bd96" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="515" column="55" selection-start-line="515" selection-start-column="55" selection-end-line="515" selection-end-column="55" />
+            <state relative-caret-position="183">
+              <caret line="429" column="57" lean-forward="true" selection-start-line="429" selection-start-column="57" selection-end-line="429" selection-end-column="57" />
               <folding>
                 <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -200,7 +199,7 @@
       <workItem from="1569515364434" duration="124000" />
       <workItem from="1569592252805" duration="1835000" />
       <workItem from="1569596863195" duration="171000" />
-      <workItem from="1569614564047" duration="9461000" />
+      <workItem from="1569614564047" duration="10479000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1568567991841</created>
@@ -468,11 +467,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569628459424</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Insert publications and other infos">
+      <created>1569628731969</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1569628731969</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Insert publications and other infos">
+      <created>1569629574726</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1569629574726</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53549000" />
+    <option name="totallyTimeSpent" value="54567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -559,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="515" column="55" selection-start-line="515" selection-start-column="55" selection-end-line="515" selection-end-column="55" />
+        <state relative-caret-position="183">
+          <caret line="429" column="57" lean-forward="true" selection-start-line="429" selection-start-column="57" selection-end-line="429" selection-end-column="57" />
           <folding>
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
