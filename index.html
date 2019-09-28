@@ -395,10 +395,10 @@
 
 
                 <div class="col-md-6 mb-md-0 mb-3" style="padding: 0em 5em 2em 2em;">
-                    <form action = "javascript:sendEmail();">
+                    <form action ="https://us-central1-mypersonalpage-6c343.cloudfunctions.net/enviarEmail" method="post">
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
                         </div>
                         <div class="form-group">
                             <label for="name">Nome</label>
@@ -407,7 +407,7 @@
 
                         <div class="form-group">
                             <label for="body">Mensagem</label>
-                            <textarea class="form-control" id="body" rows="3"></textarea>
+                            <textarea class="form-control" id="body" name='body' rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn purple mb-2">Enviar</button>
                     </form>
@@ -427,7 +427,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
 
 
