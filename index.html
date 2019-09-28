@@ -402,7 +402,7 @@
                         </div>
                         <div class="form-group">
                             <label for="name">Nome</label>
-                            <input type="text" required class="form-control" id="name" placeholder="João">
+                            <input type="text" required class="form-control" id="name" name='name' placeholder="João">
                         </div>
 
                         <div class="form-group">
@@ -507,18 +507,6 @@
                 }
             }
         });
-        function sendEmail() {
-            Email.send({
-                SecureToken : "1fc71a87-b059-40b0-b944-4f6f501a0102",
-                To : 'melissecabral@gmail.com',
-                From : "melissecabral07@gmail.com",
-                Subject : document.getElementById('name').value,
-                Body : 'Nome : ' + document.getElementById('name').value + " Mensagem :" + document.getElementById('body').value +
-                    "Email : " + document.getElementById('email').value
-            }).then(
-                message => alert(message)
-            );
-        }
     </script>
     <!-- Footer -->
 
