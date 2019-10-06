@@ -297,9 +297,8 @@ a:hover
     margin-right: auto;
 }
 #publications{
-    background: linear-gradient(0deg,rgba(255,0,150,0.4),rgba(255,0,150,0.4)), url('../images/bg3.jpg');
+    background: linear-gradient(0deg,rgba(255,0,150,0.4),rgba(255,0,150,0.4)), url('../images/bg2.jpg');
     background-size: cover;
-    background-position: center;
 }
 #xp{
     display: flex;
