@@ -147,6 +147,12 @@ li{
 .infoFooter{
     text-align: center;
 }
+#info{
+    display: inline-flex;
+    float: left;
+    min-width: 250px;
+    padding-top: 3vh;
+}
 .container-fluid{
     padding-bottom: 5em;
 }
@@ -336,4 +342,37 @@ a:hover
     max-width: 70vw !important;
     float: right !important;
     margin-left: 0 !important;
+    border-left: 1px solid silver;
+}
+@media(orientation: portrait){
+    #bio{
+        display: grid;
+    }
+    #info {
+        width: 80vh;
+        margin-left: 5em;
+        margin-bottom: 2em;
+    }
+    #presentation{
+        width: 100% !important;
+        max-width: 100vw !important;
+        text-align: left !important;
+        margin-left: 0em !important;
+        border-left: 0px solid silver;
+    }
+}
+@media(orientation: landscape){
+    #bio{
+        display: flex;
+    }
+    #info {
+        width: 30% !important;
+
+    }
+    #presentation{
+        width: 70% !important;
+        text-align: left !important;
+        margin-left: 0em !important;
+        border-left: 1px solid silver;
+    }
 }
