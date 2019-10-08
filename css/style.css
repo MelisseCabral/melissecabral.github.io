@@ -213,6 +213,10 @@ li{
 .container{
     margin-bottom: 2em;
 }
+.btn-link{
+    color: #005cbf !important;
+    font-size: inherit !important;
+}
 .card{
     width: 18rem;
     border-radius: 20px !important;
