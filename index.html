@@ -1,412 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Melisse Cabral</title>
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css" >
-    <link rel="stylesheet" href="css/animate.css" >
-    <link rel="stylesheet" href="css/bootstrap-grid.css" >
-    <link rel="stylesheet" href="css/bootstrap-reboot.css" >
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.css" />
 
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
 
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
-</head>
-<body onload="loaded()">
-<div class="overlay" id="overlay">
-    <div class="LoaderBalls">
+  </head>
+  <body onload="loaded()">
+    <div class="overlay" id="overlay">
+      <div class="LoaderBalls">
         <div class="LoaderBalls__item"></div>
         <div class="LoaderBalls__item"></div>
         <div class="LoaderBalls__item"></div>
+      </div>
     </div>
-</div>
 
-<header>
-    <nav>
+    <header>
+      <nav>
         <ul class="nav justify-content-center noselectble">
-            <li class="nav-item">
-                <a class="nav-link active" onclick="{smoothScroll(document.getElementById('bio'))}">Bio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="{smoothScroll(document.getElementById('skills'))}">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="{smoothScroll(document.getElementById('xp'))}">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="{smoothScroll(document.getElementById('publications'))}">Publications</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="{smoothScroll(document.getElementById('portifolio'))}">Portifolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="{smoothScroll(document.getElementById('contact'))}">Contact</a>
-            </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              onclick="{smoothScroll(document.getElementById('bio'))}"
+              >Bio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              onclick="{smoothScroll(document.getElementById('skills'))}"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              onclick="{smoothScroll(document.getElementById('xp'))}"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              onclick="{smoothScroll(document.getElementById('publications'))}"
+              >Publications</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              onclick="{smoothScroll(document.getElementById('portifolio'))}"
+              >Portifolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              onclick="{smoothScroll(document.getElementById('contact'))}"
+              >Contact</a
+            >
+          </li>
         </ul>
-    </nav>
-    <div class="jumbotron">
-
+      </nav>
+      <div class="jumbotron">
         <div class="container">
-            <img class='photo_profile noselectble' src="images/Profile.jpeg">
-            <h1 class="display-4">Melisse Cabral</h1>
-            <p class="lead second-text">Web Developer</p>
+          <img class="photo_profile noselectble" src="images/Profile.jpeg" />
+          <h1 class="display-4">Melisse Cabral</h1>
+          <p class="lead second-text">Web Developer</p>
         </div>
 
         <ul class="ul-social noselectble">
-            <li class="li-social grow" ><a target="_blank" href="https://github.com/MelisseCabral"><img src="images/gh.png"></a></li>
-            <li class="li-social grow"><a target="_blank" href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"> <img src="images/in.png"></a></li>
-            <li class="li-social grow"><a target="_blank" href="https://www.facebook.com/melisse.cabral"> <img src="images/fb.png"></a></li>
+          <li class="li-social grow">
+            <a target="_blank" href="https://github.com/MelisseCabral"
+              ><img src="images/gh.png"
+            /></a>
+          </li>
+          <li class="li-social grow">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"
+            >
+              <img src="images/in.png"
+            /></a>
+          </li>
+          <li class="li-social grow">
+            <a target="_blank" href="https://www.facebook.com/melisse.cabral">
+              <img src="images/fb.png"
+            /></a>
+          </li>
         </ul>
-    </div>
-    <a class="contactWtt" target="_blank" href="https://api.whatsapp.com/send?phone=5585999616120&text=Olá"><img class="wtt" src="images/wtt.png"></a>
-
-
-</header>
-<main>
-
-    <section id="bio">
+      </div>
+      <a
+        class="contactWtt"
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=5585999616120&text=Olá"
+        ><img class="wtt" src="images/wtt.png"
+      /></a>
+    </header>
+    <main>
+      <section id="bio">
         <div id="info">
-            <div style="text-align: left">
-                <p><strong>Name  :</strong></p>
-                <p><strong>Phone : </strong></p>
-                <p><strong>Email : </strong></p>
-            </div>
-            <div>
-                <p>Melisse Pontes Cabral</p>
-                <p>+55 85 9 9961 6120</p>
-                <p>melissecabral@gmail.com</p>
-            </div>
+          <div style="text-align: left;">
+            <p><strong>Name :</strong></p>
+            <p><strong>Phone : </strong></p>
+            <p><strong>Email : </strong></p>
+          </div>
+          <div>
+            <p>Melisse Pontes Cabral</p>
+            <p>+55 85 9 9961 6120</p>
+            <p>melissecabral@gmail.com</p>
+          </div>
         </div>
 
         <div id="presentation">
-            <h1 style="text-align: left !important; margin-left: 2em">Hello!</h1>
-            <p style="text-align: left !important; margin-left: 5em">
-                Student, 23 years old, currently pursuing a Bachelor Degree at Computer Engineering at Federal University of Ceará.
-                I had the opportunity to know a lot of programming paradigms and languages but preferably I look for web
-                development tools and cross platform using mostly Javascript and NodeJS frameworks. I also code mobile apps,
-                Native IOs in Swift and Android with Java.
-
-            </p>
+          <h1 style="text-align: left !important; margin-left: 2em;">Hello!</h1>
+          <p
+            id="aboutMe"
+            style="text-align: left !important; margin-left: 5em;"
+          >
+            Student, myage years old, currently pursuing a Bachelor Degree at
+            Computer Engineering at Federal University of Ceará. I had the
+            opportunity to know a lot of programming paradigms and languages but
+            preferably I look for web development tools and cross platform using
+            mostly Javascript and NodeJS frameworks. I also code mobile apps,
+            Native IOs in Swift and Android with Java.
+          </p>
         </div>
-    </section>
-    <section id="skills" >
+      </section>
+      <section id="skills">
         <h2>Skills</h2>
 
-        <div class="container-fluid text-center" >
-
-            <div class="container" style="display: block">
-                <div class="col-md-6 skills-wrapper">
-                    <div class="progress">
-                        <div class="progress-bar java" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="70">JAVA 70%</div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar swift" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="65">SWIFT 65%</div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar c" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="50">C# 50%</div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar php" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="30">PHP 30%</div>
-                    </div>
+        <div class="container-fluid text-center">
+          <div class="container" style="display: block;">
+            <div class="col-md-6 skills-wrapper">
+              <div class="progress">
+                <div
+                  class="progress-bar java"
+                  role="progressbar"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="70"
+                >
+                  JAVA 70%
                 </div>
-                <div class="col-md-6 skills-wrapper">
-                    <div class="wrapper-skill">
-                        <div class="progress">
-                            <div class="progress-bar js" role="progressbar" aria-valuenow="0"
-                                 aria-valuemin="0" aria-valuemax="80">JAVASCRIPT 80%</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar css" role="progressbar" aria-valuenow="0"
-                                 aria-valuemin="0" aria-valuemax="70">CSS 70%</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar html" role="progressbar" aria-valuenow="0"
-                                 aria-valuemin="0" aria-valuemax="90">HTML 90%</div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar python" role="progressbar" aria-valuenow="0"
-                                 aria-valuemin="0" aria-valuemax="90">PYTHON 90%</div>
-                        </div>
-                    </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar swift"
+                  role="progressbar"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="65"
+                >
+                  SWIFT 65%
                 </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar c"
+                  role="progressbar"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="50"
+                >
+                  C# 50%
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar php"
+                  role="progressbar"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="30"
+                >
+                  PHP 30%
+                </div>
+              </div>
             </div>
+            <div class="col-md-6 skills-wrapper">
+              <div class="wrapper-skill">
+                <div class="progress">
+                  <div
+                    class="progress-bar js"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="80"
+                  >
+                    JAVASCRIPT 80%
+                  </div>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar css"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="70"
+                  >
+                    CSS 70%
+                  </div>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar html"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="90"
+                  >
+                    HTML 90%
+                  </div>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar python"
+                    role="progressbar"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="90"
+                  >
+                    PYTHON 90%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section id="services">
+      </section>
+      <section id="services">
         <h2 style="color: whitesmoke;">Services</h2>
         <div class="card-group centred container-services">
-            <div class="box1">
-                <i class="material-icons noselectble bigicon">public</i>
-                <h3>Web Design</h3>
-                <p class="describe-service">Advertising and presentation web pages for companies.</p>
-            </div>
-            <div class="box1">
-                <i class="material-icons noselectble bigicon">color_lens</i>
-                <h3>Branding</h3>
-                <p class="describe-service" >Creation and renewal of logos.</p>
-            </div>
-            <div class="box1">
-                <i class="material-icons noselectble bigicon">code</i>
-                <h3>Web Developer</h3>
-                <p class="describe-service">Software development for various business areas.</p>
-            </div>
-            <div class="box1">
-                <i class="material-icons noselectble bigicon">phone</i>
-                <h3>Support</h3>
-                <p class="describe-service">Product Support and Maintenance.</p>
-            </div>
+          <div class="box1">
+            <i class="material-icons noselectble bigicon">public</i>
+            <h3>Web Design</h3>
+            <p class="describe-service">
+              Advertising and presentation web pages for companies.
+            </p>
+          </div>
+          <div class="box1">
+            <i class="material-icons noselectble bigicon">color_lens</i>
+            <h3>Branding</h3>
+            <p class="describe-service">Creation and renewal of logos.</p>
+          </div>
+          <div class="box1">
+            <i class="material-icons noselectble bigicon">code</i>
+            <h3>Web Developer</h3>
+            <p class="describe-service">
+              Software development for various business areas.
+            </p>
+          </div>
+          <div class="box1">
+            <i class="material-icons noselectble bigicon">phone</i>
+            <h3>Support</h3>
+            <p class="describe-service">Product Support and Maintenance.</p>
+          </div>
         </div>
-    </section>
-    <section id="xp" >
+      </section>
+      <section id="xp">
         <div id="content-xp" class="col-6">
-            <h2>Experiences</h2>
+          <h2>Experiences</h2>
 
-            <div class="container-fluid text-center">
-                <div class="">
-                    <h5 class="card-title">Supervised Internship</h5>
-                    <p class="card-text text-center subtitle-card">University Federal of Ceará / Department of Health Municipal of Sobral</p>
-                    <p class="card-text text-center">Write, review, and rewrite web pages, using JS, HTML, CSS, PHP and postgres database. </p>
-                    <p class="card-text">07/2018 - 11/2018</p>
-                    <br>
-                </div>
-
-                <div class="">
-                    <h5 class="card-title">Institutional Program of Technological Development</h5>
-                    <p class="card-text text-center subtitle-card">University Federal of Ceará</p>
-                    <p class="card-text text-center">Basic maintenance of computer networks</p>
-                    <p class="card-text">03/2019 - 06/2019</p>
-                </div>
+          <div class="container-fluid text-center">
+            <div class="">
+              <h5 class="card-title">Supervised Internship</h5>
+              <p class="card-text text-center subtitle-card">
+                University Federal of Ceará / Department of Health Municipal of
+                Sobral
+              </p>
+              <p class="card-text text-center">
+                Write, review, and rewrite web pages, using JS, HTML, CSS, PHP
+                and postgres database.
+              </p>
+              <p class="card-text">07/2018 - 11/2018</p>
+              <br />
             </div>
+
+            <div class="">
+              <h5 class="card-title">
+                Institutional Program of Technological Development
+              </h5>
+              <p class="card-text text-center subtitle-card">
+                University Federal of Ceará
+              </p>
+              <p class="card-text text-center">
+                Basic maintenance of computer networks
+              </p>
+              <p class="card-text">03/2019 - 06/2019</p>
+            </div>
+          </div>
         </div>
 
         <div class="col-6" id="education">
-            <h2>Education</h2>
+          <h2>Education</h2>
 
-            <div class="container-fluid text-center">
-
-                <div class="educ-card" >
-                    <h5 class="card-title">Bachelor's em Computer Engineer</h5>
-                    <p class="card-text text-center subtitle-card">University Federal of Ceará</p>
-                    <p class="card-text">2017 - At this day</p>
-                </div>
-
+          <div class="container-fluid text-center">
+            <div class="educ-card">
+              <h5 class="card-title">Bachelor's em Computer Engineer</h5>
+              <p class="card-text text-center subtitle-card">
+                University Federal of Ceará
+              </p>
+              <p class="card-text">2017 - At this day</p>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="publications">
+      <section id="publications">
         <h2 style="color: whitesmoke;">Publications</h2>
         <div class="container-fluid centred">
-            <div class="card-group">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title title-article">IR Drive with Generic Actuator Device</h5>
-                        <p class="title-article"><span >Author - II CONAPESC - 2017 - <a href="https://github.com/MelisseCabral/ir_control" target="_blank" class="btn-link">Github</a></span></p>
-                        <p class="card-text text-justify text-left">This report proposes to present the development of
-                            a residential automation destined to be manufactured in the Brazilian industry. They were
-                            used to carry out the project by developing free software like Arduino IDE. During the
-                            report, several development environments will be presented, targeting not only the hardware,
-                            but also the software and the results of the final object.</p>
-                        <a class="btn btn-transparent btn-purple bottom-btn" target="_blank" href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1626_02052017190256.pdf">Read</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title title-article">Telemetry Prototype Destinated to Formula SAE</h5>
-                        <p class="title-article"><span >Coauthor - II CONAPESC - 2017 - <a href="https://github.com/MelisseCabral/Telemetria-Formula-SAE" target="_blank" class="btn-link">Github</a></span> </p>
-                        <p class="card-text text-justify text-left">This report proposes to expose the development of a
-                            telemetry destined to the automotive world, specifically for the Formula SAE competition.
-                            They were used to carry out the project, free software development as Arduino IDE and Visual Studio.
-                            During the report will be presented diverse environments of developments, aimed not only the hardware,
-                            but as well as the software. Obtaining as well as the results of the final object, as hardware, software,
-                            charts and graphs.
-                        </p>
-                        <a class="btn btn-transparent btn-purple bottom-btn" target="_blank" href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1597_02052017190351.pdf">Read</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title title-article">SPI Communication Between ARM CORTEX-M4 Microcotrollers
-                            TIVA C SERIES TM4C123GH6PM</h5>
-                        <p class="title-article"><span >Coauthor - II CONAPESC - 2017</span></p>
-                        <p class="card-text text-justify text-left">The use of microcontrollers, more complete and complex
-                            than microprocessors, shows how technological advances can be increasingly present in our daily
-                            lives, such as electronic devices, security and monitoring systems, in an efficient and easily
-                            adaptable way through the study conducted microcontroller.</p>
-
-                        <a class="btn btn-transparent btn-purple bottom-btn" target="_blank" href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1595_12052017194333.pdf">Read</a>
-                    </div>
-                </div>
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title title-article">
+                  IR Drive with Generic Actuator Device
+                </h5>
+                <p class="title-article">
+                  <span
+                    >Author - II CONAPESC - 2017 -
+                    <a
+                      href="https://github.com/MelisseCabral/ir_control"
+                      target="_blank"
+                      class="btn-link"
+                      >Github</a
+                    ></span
+                  >
+                </p>
+                <p class="card-text text-justify text-left">
+                  This report proposes to present the development of a
+                  residential automation destined to be manufactured in the
+                  Brazilian industry. They were used to carry out the project by
+                  developing free software like Arduino IDE. During the report,
+                  several development environments will be presented, targeting
+                  not only the hardware, but also the software and the results
+                  of the final object.
+                </p>
+                <a
+                  class="btn btn-transparent btn-purple bottom-btn"
+                  target="_blank"
+                  href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1626_02052017190256.pdf"
+                  >Read</a
+                >
+              </div>
             </div>
-            <div class="card-group">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title title-article">Square Wave Inverter for Small Porte Photovoltaic Systems</h5>
-                        <p class="title-article"><span >Coauthor - II CONAPESC - 2017</span></p>
-                        <p class="card-text text-justify text-left">This work was developed with the objective of building
-                            an equipment called inverter for a small photovoltaic system, intended for use in small home lighting.
-                            With each passing day the energy consumption increases, as well as the search for other sources of it.
-                            An abundant, cheap and clean source is solar energy. Although Brazil has one of the greatest potentials
-                            for generating this type of energy, it corresponds to less than 1% of the national energy matrix.</p>
-                        <a class="btn btn-transparent btn-purple bottom-btn" target="_blank" href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1409_02052017002734.pdf">Read</a>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title title-article">CNC Printer Circuit Board Machine
-                            Using the Arduino and GRBL Open Code Plataforms</h5>
-                        <p class="title-article"><span >Coauthor - II CONAPESC - 2017</span></p>
-                        <p class="card-text text-justify text-left">This paper presents the development of a computerized
-                            numerical control machine, CNC, using open source platforms focused on PCB, for research projects.
-                            Arduino and GRBL open source platforms were used in the design of this project, making it possible
-                            to build this type of machine at a lower cost.</p>
-                        <a class="btn btn-transparent btn-purple" target="_blank" href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1558_02052017142209.pdf">Read</a>
-                    </div>
-                </div>
-           
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title title-article">
+                  Telemetry Prototype Destinated to Formula SAE
+                </h5>
+                <p class="title-article">
+                  <span
+                    >Coauthor - II CONAPESC - 2017 -
+                    <a
+                      href="https://github.com/MelisseCabral/Telemetria-Formula-SAE"
+                      target="_blank"
+                      class="btn-link"
+                      >Github</a
+                    ></span
+                  >
+                </p>
+                <p class="card-text text-justify text-left">
+                  This report proposes to expose the development of a telemetry
+                  destined to the automotive world, specifically for the Formula
+                  SAE competition. They were used to carry out the project, free
+                  software development as Arduino IDE and Visual Studio. During
+                  the report will be presented diverse environments of
+                  developments, aimed not only the hardware, but as well as the
+                  software. Obtaining as well as the results of the final
+                  object, as hardware, software, charts and graphs.
+                </p>
+                <a
+                  class="btn btn-transparent btn-purple bottom-btn"
+                  target="_blank"
+                  href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1597_02052017190351.pdf"
+                  >Read</a
+                >
+              </div>
             </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title title-article">
+                  SPI Communication Between ARM CORTEX-M4 Microcotrollers TIVA C
+                  SERIES TM4C123GH6PM
+                </h5>
+                <p class="title-article">
+                  <span>Coauthor - II CONAPESC - 2017</span>
+                </p>
+                <p class="card-text text-justify text-left">
+                  The use of microcontrollers, more complete and complex than
+                  microprocessors, shows how technological advances can be
+                  increasingly present in our daily lives, such as electronic
+                  devices, security and monitoring systems, in an efficient and
+                  easily adaptable way through the study conducted
+                  microcontroller.
+                </p>
+
+                <a
+                  class="btn btn-transparent btn-purple bottom-btn"
+                  target="_blank"
+                  href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1595_12052017194333.pdf"
+                  >Read</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title title-article">
+                  Square Wave Inverter for Small Porte Photovoltaic Systems
+                </h5>
+                <p class="title-article">
+                  <span>Coauthor - II CONAPESC - 2017</span>
+                </p>
+                <p class="card-text text-justify text-left">
+                  This work was developed with the objective of building an
+                  equipment called inverter for a small photovoltaic system,
+                  intended for use in small home lighting. With each passing day
+                  the energy consumption increases, as well as the search for
+                  other sources of it. An abundant, cheap and clean source is
+                  solar energy. Although Brazil has one of the greatest
+                  potentials for generating this type of energy, it corresponds
+                  to less than 1% of the national energy matrix.
+                </p>
+                <a
+                  class="btn btn-transparent btn-purple bottom-btn"
+                  target="_blank"
+                  href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1409_02052017002734.pdf"
+                  >Read</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title title-article">
+                  CNC Printer Circuit Board Machine Using the Arduino and GRBL
+                  Open Code Plataforms
+                </h5>
+                <p class="title-article">
+                  <span>Coauthor - II CONAPESC - 2017</span>
+                </p>
+                <p class="card-text text-justify text-left">
+                  This paper presents the development of a computerized
+                  numerical control machine, CNC, using open source platforms
+                  focused on PCB, for research projects. Arduino and GRBL open
+                  source platforms were used in the design of this project,
+                  making it possible to build this type of machine at a lower
+                  cost.
+                </p>
+                <a
+                  class="btn btn-transparent btn-purple"
+                  target="_blank"
+                  href="http://editorarealize.com.br/revistas/conapesc/trabalhos/TRABALHO_EV070_MD1_SA16_ID1558_02052017142209.pdf"
+                  >Read</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section id="portifolio">
+      </section>
+      <section id="portifolio">
         <h2>Portifolio</h2>
 
         <div class="container-fluid centred">
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="images/farmabook.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Farmabook</h5>
-                        <p class="card-text">Iterative learning system for pharmacology teaching, ongoing development.</p>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/lab.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Lab UFC</h5>
-                        <p class="card-text">System for laboratory access records developed during performance at the Laboratory of the Federal University of Ceará.</p>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/ilumini.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Ilumini</h5>
-                        <p class="card-text">Company presentation page and quotation and document generation.</p>
-
-                    </div>
-                </div>
+          <div class="card-group">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/farmabook.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Farmabook</h5>
+                <p class="card-text">
+                  Iterative learning system for pharmacology teaching, ongoing
+                  development.
+                </p>
+              </div>
             </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="images/bird.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Bird Fly</h5>
-                        <p class="card-text">Game Developed for Ios using Swift as final project in the discipline of programming paradigms.</p>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/multplic.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Multiplic</h5>
-                        <p class="card-text">File system for access and management of the activities of the company Multiplic Telecom.</p>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/es.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">pos-UFC</h5>
-                        <p class="card-text">System developed for the Software Engineering discipline 2018.1 - University Federal of Ceará.</p>
-                    </div>
-                </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/lab.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lab UFC</h5>
+                <p class="card-text">
+                  System for laboratory access records developed during
+                  performance at the Laboratory of the Federal University of
+                  Ceará.
+                </p>
+              </div>
             </div>
-
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/ilumini.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ilumini</h5>
+                <p class="card-text">
+                  Company presentation page and quotation and document
+                  generation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/bird.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bird Fly</h5>
+                <p class="card-text">
+                  Game Developed for Ios using Swift as final project in the
+                  discipline of programming paradigms.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/multplic.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Multiplic</h5>
+                <p class="card-text">
+                  File system for access and management of the activities of the
+                  company Multiplic Telecom.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/es.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">pos-UFC</h5>
+                <p class="card-text">
+                  System developed for the Software Engineering discipline
+                  2018.1 - University Federal of Ceará.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-group" style="margin: 1em;">
+            <div class="card" hidden="true">
+              <img
+                class="card-img-top"
+                src="images/bird.jpeg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Be The Hero</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="images/radardev.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Radar Dev</h5>
+                
+                <p class="card-text">
+                  ReactJs and React Native application for listing devs on your
+                  perimeter.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                href="bellaskin.me"
+                src="images/bellaskin-min.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BellaSkin</h5>
+                <p class="card-text">
+                  ReactJs building for Simple Product Shop for droppingship and
+                  digital marketing.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
 
-</main>
-
-<footer class="page-footer font-small pt-4" id="contact">
-
-    <div class="container-fluid text-center text-md-left">
-
+    <footer class="page-footer font-small pt-4" id="contact">
+      <div class="container-fluid text-center text-md-left">
         <div class="row">
+          <div class="col-md-12 mt-md-0 mt-3" style="text-align: center;">
+            <h1>Melisse Cabral</h1>
 
-            <div class="col-md-12 mt-md-0 mt-3" style="text-align: center">
+            <p>Av. Dom José, 2285 - Sobral, CE</p>
+            <p>melissecabral@gmail.com</p>
+            <p>+55 85 9 99616120</p>
 
-                <h1>Melisse Cabral</h1>
-
-                <p>Av. Dom José, 2285 - Sobral, CE</p>
-                <p>melissecabral@gmail.com</p>
-                <p>+55 85 9 99616120</p>
-
-                <div class="footer_actions">
-                    <a href="https://drive.google.com/file/d/13UgsZNCTBLttnPRNXODTN6Aj0LSqYYSd/view" target="_blank" class="btn btn-transparent noselectble">Download Resume</a>
-                    <ul class="ul-social noselectble">
-                        <li class="li-social grow" ><a target="_blank" href="https://github.com/MelisseCabral"><img class="footer-ul" src="images/gh.png"></a></li>
-                        <li class="li-social grow"><a target="_blank" href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"> <img class="footer-ul" src="images/in.png"></a></li>
-                        <li class="li-social grow"><a target="_blank" href="https://www.facebook.com/melisse.cabral?ref=bookmarks"> <img class="footer-ul" src="images/fb.png"></a></li>
-                    </ul>
-                </div>
+            <div class="footer_actions">
+              <a
+                href="https://drive.google.com/file/d/13UgsZNCTBLttnPRNXODTN6Aj0LSqYYSd/view"
+                target="_blank"
+                class="btn btn-transparent noselectble"
+                >Download Resume</a
+              >
+              <ul class="ul-social noselectble">
+                <li class="li-social grow">
+                  <a target="_blank" href="https://github.com/MelisseCabral"
+                    ><img class="footer-ul" src="images/gh.png"
+                  /></a>
+                </li>
+                <li class="li-social grow">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/melisse-p-cabral-48b963117/"
+                  >
+                    <img class="footer-ul" src="images/in.png"
+                  /></a>
+                </li>
+                <li class="li-social grow">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/melisse.cabral?ref=bookmarks"
+                  >
+                    <img class="footer-ul" src="images/fb.png"
+                  /></a>
+                </li>
+              </ul>
             </div>
-            <hr class="clearfix w-100 d-md-none pb-3">
-
-
-
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3" />
         </div>
+      </div>
 
-    </div>
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright
-    </div>
-    <!-- Copyright -->
-
-</footer>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-<script>
-
-
-    window.smoothScroll = function(target) {
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright</div>
+      <!-- Copyright -->
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.smoothScroll = function (target) {
         var scrollContainer = target;
-        do { //find scroll container
-            scrollContainer = scrollContainer.parentNode;
-            if (!scrollContainer) return;
-            scrollContainer.scrollTop += 1;
+        do {
+          //find scroll container
+          scrollContainer = scrollContainer.parentNode;
+          if (!scrollContainer) return;
+          scrollContainer.scrollTop += 1;
         } while (scrollContainer.scrollTop == 0);
 
         var targetY = 0;
-        do { //find the top of target relatively to the container
-            if (target == scrollContainer) break;
-            targetY += target.offsetTop;
-        } while (target = target.offsetParent);
+        do {
+          //find the top of target relatively to the container
+          if (target == scrollContainer) break;
+          targetY += target.offsetTop;
+        } while ((target = target.offsetParent));
 
-        scroll = function(c, a, b, i) {
-            i++; if (i > 30) return;
-            c.scrollTop = a + (b - a) / 30 * i;
-            setTimeout(function(){ scroll(c, a, b, i); }, 20);
-        }
+        scroll = function (c, a, b, i) {
+          i++;
+          if (i > 30) return;
+          c.scrollTop = a + ((b - a) / 30) * i;
+          setTimeout(function () {
+            scroll(c, a, b, i);
+          }, 20);
+        };
         // start scrolling
         scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-    }
+      };
 
-    function loaded() {
-        let l = document.getElementById('overlay'); l.classList.add('hidden')
-    }
+      function loaded() {
+        let l = document.getElementById("overlay");
+        l.classList.add("hidden");
+      }
 
-    let bars = $('.progress-bar');
-    /*
+      let bars = $(".progress-bar");
+      /*
     $('.progress-bar').each(function() {
         var $bar = $(this);
         var progress = setInterval(function() {
@@ -427,47 +728,78 @@
     });
 
      */
-    let cont = 0;
-    $(window).scroll(function() {
-        var hT = $('#skills').offset().top,
-            hH = $('#skills').outerHeight(),
-            wH = $(window).height(),
-            wS = $(this).scrollTop();
-        if (wS > (hT+hH-wH)){
-            if(cont == 0){
-                for(let i = 0; i < 11; i++){
-                    var currWidth = parseInt(bars[i].getAttribute('aria-valuemax'));
-                    var maxWidth = parseInt(bars[i].getAttribute('aria-valuemax'));
-                    //update the progress
-                    if(currWidth >= 70){
-                        bars[i].style.background = 'green';
-                    } else if(currWidth >= 50){
-                        bars[i].style.background = 'orange';
-                    }
-                    else{
-                        bars[i].style.background = 'red';
-                    }
-                    bars[i].style.width = (currWidth+'%');
-                    bars[i].setAttribute('aria-valuenow',maxWidth);
-                }
-
-                cont+=1;
+      let cont = 0;
+      $(window).scroll(function () {
+        var hT = $("#skills").offset().top,
+          hH = $("#skills").outerHeight(),
+          wH = $(window).height(),
+          wS = $(this).scrollTop();
+        if (wS > hT + hH - wH) {
+          if (cont == 0) {
+            for (let i = 0; i < 11; i++) {
+              var currWidth = parseInt(bars[i].getAttribute("aria-valuemax"));
+              var maxWidth = parseInt(bars[i].getAttribute("aria-valuemax"));
+              //update the progress
+              if (currWidth >= 70) {
+                bars[i].style.background = "green";
+              } else if (currWidth >= 50) {
+                bars[i].style.background = "orange";
+              } else {
+                bars[i].style.background = "red";
+              }
+              bars[i].style.width = currWidth + "%";
+              bars[i].setAttribute("aria-valuenow", maxWidth);
             }
+
+            cont += 1;
+          }
         }
-    });
-</script>
-<!-- Footer -->
+      });
+    </script>
+    <script>
+      function calculaIdade() {
+        var date = new Date();
+        var year = date.getFullYear();
 
-</body>
+        var dateBirth = "07/07/1996".split("/");
+        var dayBirth = dateBirth[0];
+        var monthBirth = dateBirth[1];
+        var yearBirth = dateBirth[2];
 
+        var age = year - yearBirth;
+        var month = date.getMonth() + 1;
 
+        if (month < monthBirth) {
+          age--;
+        } else {
+          if (month == monthBirth) {
+            if (date.getDate() < dayBirth) {
+              age--;
+            }
+          }
+        }
+        return age;
+      }
+
+      const age = calculaIdade();
+      let text = document.getElementById("aboutMe").innerText;
+      text = text.replace("myage", age);
+      document.getElementById("aboutMe").innerText = text;
+    </script>
+    <!-- Footer -->
+  </body>
 </html>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155009059-1"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-155009059-1"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'UA-155009059-1');
+  gtag("config", "UA-155009059-1");
 </script>
