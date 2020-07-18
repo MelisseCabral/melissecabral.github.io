@@ -308,6 +308,9 @@ a:hover
     -ms-transform: scale(1.06);
     transform: scale(1.06);
 }
+.grow, a {
+    transition-duration: 0.5s 
+}
 .grow:hover
 {
     -webkit-transform: scale(1.06);
