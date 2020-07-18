@@ -76,6 +76,7 @@ h3, h2 {
 downloadButton {
     font-family: 'LEMONMILK' !important;
     text-transform: uppercase;
+    transition-duration: 2s !important;   
     font-size: 14px !important;
 }
 h2 {
@@ -178,10 +179,14 @@ li{
 .container-fluid{
     padding-bottom: 5em;
 }
-.skill {
+.skills-set {
     width: 40vh;
-    padding: 2em 0 2em 0;
+    padding: 1em 0 1em 0; 
+    margin: 5vw;
+    margin-top: 0;
+    flex-direction: row;
 }
+
 .hidden{
     display: none !important;
 }
@@ -371,6 +376,65 @@ a:hover
     margin-left: 0 !important;
     border-left: 1px solid silver;
 }
+.bad {
+    background-color: var(--danger) !important;
+}
+.media {
+    background-color: var(--warning) !important;
+}
+.good {
+    background-color: var(--success) !important;
+}
+.skills {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 10vw;
+  }
+  .skill-name {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 !important;
+  }
+  .skill-bar {
+    height: 20px;
+    background: #cacaca;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+  .skill-per {
+    height: 20px;
+    background-color: #f05a48;
+    border-radius: 30px;
+    width: 0;
+    position: relative;
+    transition: 1s linear;
+  }
+    
+  .skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  .skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  
 @media(orientation: portrait){
     #bio{
         display: grid;

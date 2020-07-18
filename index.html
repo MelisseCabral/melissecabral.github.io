@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <title>Melisse Cabral</title>
@@ -144,107 +144,76 @@
           </p>
         </div>
       </section>
-      <section id="skills">
+      <section id="skills-cont">
         <h3>Skills</h3>
 
-        <div class="container-fluid text-center">
-          <div class="container" style="display: block;">
-            <div class="col-md-6 skills-wrapper">
-              <div class="progress">
-                <div
-                  class="progress-bar java"
-                  role="progressbar"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="70"
-                >
-                  JAVA 70%
-                </div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar swift"
-                  role="progressbar"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="65"
-                >
-                  SWIFT 65%
-                </div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar c"
-                  role="progressbar"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="50"
-                >
-                  C# 50%
-                </div>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar php"
-                  role="progressbar"
-                  aria-valuenow="0"
-                  aria-valuemin="0"
-                  aria-valuemax="30"
-                >
-                  PHP 30%
-                </div>
-              </div>
+       <div class="row" style="margin: auto; display: inline-flex;">
+          <div class="skills-set">
+          <div class="skill">
+            <div class="skill-name">html</div>
+            <div class="skill-bar">
+              <div class="skill-per good" per="95"></div>
             </div>
-            <div class="col-md-6 skills-wrapper">
-              <div class="wrapper-skill">
-                <div class="progress">
-                  <div
-                    class="progress-bar js"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="80"
-                  >
-                    JAVASCRIPT 80%
-                  </div>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar css"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="70"
-                  >
-                    CSS 70%
-                  </div>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar html"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="90"
-                  >
-                    HTML 90%
-                  </div>
-                </div>
-                <div class="progress">
-                  <div
-                    class="progress-bar python"
-                    role="progressbar"
-                    aria-valuenow="0"
-                    aria-valuemin="0"
-                    aria-valuemax="90"
-                  >
-                    PYTHON 90%
-                  </div>
-                </div>
-              </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+              <div class="skill-per good" per="80"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+              <div class="skill-per good" per="80"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Java</div>
+            <div class="skill-bar">
+              <div class="skill-per good" per="70"></div>
             </div>
           </div>
         </div>
+        <div class="skills-set">
+          <div class="skill">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar">
+              <div class="skill-per good" per="70"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Swift</div>
+            <div class="skill-bar">
+              <div class="skill-per media" per="65"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">c#</div>
+            <div class="skill-bar">
+              <div class="skill-per media" per="55"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">PHP</div>
+            <div class="skill-bar">
+              <div class="skill-per bad" per="30"></div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="badges">
+        <span class="badge badge-pill badge-primary">Jquery</span>
+        <span class="badge badge-pill badge-secondary">Bootstrap</span>
+        <span class="badge badge-pill badge-success">NodeJS</span>
+        <span class="badge badge-pill badge-success">ExpressJS</span>
+        <span class="badge badge-pill badge-danger">ReactNative</span>
+        <span class="badge badge-pill badge-warning">Firebase</span>
+        <span class="badge badge-pill badge-info">ReactJs</span>
+        <span class="badge badge-pill badge-dark">MongoDB</span>
+        <span class="badge badge-pill badge-secondary">MySql</span>
+        <span class="badge badge-pill badge-info">Docker</span>
+        <span class="badge badge-pill badge-secondary">SqLite</span>
+       </div>
       </section>
       <section id="services">
         <h3 style="color: whitesmoke;">Services</h3>
@@ -631,7 +600,7 @@
               <a
                 href="https://drive.google.com/file/d/13UgsZNCTBLttnPRNXODTN6Aj0LSqYYSd/view"
                 target="_blank"
-                class="btn btn-transparent noselectble downloadButton" style="font-size: 14px !important;"
+                class="btn btn-transparent noselectble downloadButton gr" style="font-size: 14px !important;"
                 >Download Resume</a
               >
               <ul class="ul-social noselectble">
@@ -673,88 +642,33 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      window.smoothScroll = function (target) {
-        var scrollContainer = target;
-        do {
-          //find scroll container
-          scrollContainer = scrollContainer.parentNode;
-          if (!scrollContainer) return;
-          scrollContainer.scrollTop += 1;
-        } while (scrollContainer.scrollTop == 0);
-
-        var targetY = 0;
-        do {
-          //find the top of target relatively to the container
-          if (target == scrollContainer) break;
-          targetY += target.offsetTop;
-        } while ((target = target.offsetParent));
-
-        scroll = function (c, a, b, i) {
-          i++;
-          if (i > 30) return;
-          c.scrollTop = a + ((b - a) / 30) * i;
-          setTimeout(function () {
-            scroll(c, a, b, i);
-          }, 20);
-        };
-        // start scrolling
-        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-      };
-
+      
       function loaded() {
         let l = document.getElementById("overlay");
         l.classList.add("hidden");
+        console.log('loaded');
       }
-
-      let bars = $(".progress-bar");
-      /*
-    $('.progress-bar').each(function() {
-        var $bar = $(this);
-        var progress = setInterval(function() {
-
-            var currWidth = parseInt($bar.attr('aria-valuenow'));
-            var maxWidth = parseInt($bar.attr('aria-valuemax'));
-
-            //update the progress
-            $bar.width(currWidth+'%');
-            $bar.attr('aria-valuenow',maxWidth);
-
-            //clear timer when max is reach
-            if (currWidth >= maxWidth){
-                clearInterval(progress);
+      let l = document.getElementById("overlay");
+      l.classList.add("hidden");
+      console.log('loaded');
+      $(".skill-per").each(function() {
+      var $this = $(this);
+      var per = $this.attr("per");
+      $this.css("width", per + "%");
+      $({ animatedValue: 0 }).animate(
+          { animatedValue: per },
+          {
+            duration: 1000,
+            step: function() {
+              $this.attr("per", Math.floor(this.animatedValue) + "%");
+            },
+            complete: function() {
+              $this.attr("per", Math.floor(this.animatedValue) + "%");
             }
-
-        }, 500);
-    });
-
-     */
-      let cont = 0;
-      $(window).scroll(function () {
-        var hT = $("#skills").offset().top,
-          hH = $("#skills").outerHeight(),
-          wH = $(window).height(),
-          wS = $(this).scrollTop();
-        if (wS > hT + hH - wH) {
-          if (cont == 0) {
-            for (let i = 0; i < 11; i++) {
-              var currWidth = parseInt(bars[i].getAttribute("aria-valuemax"));
-              var maxWidth = parseInt(bars[i].getAttribute("aria-valuemax"));
-              //update the progress
-              if (currWidth >= 70) {
-                bars[i].style.background = "green";
-              } else if (currWidth >= 50) {
-                bars[i].style.background = "orange";
-              } else {
-                bars[i].style.background = "red";
-              }
-              bars[i].style.width = currWidth + "%";
-              bars[i].setAttribute("aria-valuenow", maxWidth);
-            }
-
-            cont += 1;
           }
-        }
+        );
       });
+      
     </script>
     <script>
       function calculaIdade() {
@@ -789,11 +703,11 @@
     <!-- Footer -->
   </body>
 </html>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script
   async
   src="https://www.googletagmanager.com/gtag/js?id=UA-155009059-1"
-></script>
+>
+</script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() {
