@@ -232,13 +232,6 @@ li{
         transform: translate3d(0, -20px, 0) scale(0.9, 1.1);
     }
 }
-.progress-bar{
-    border-radius: 25px;
-}
-.progress{
-    border-radius: 25px !important;
-    margin: 2em 0 2em 0;
-}
 
 .skills-wrapper{
     float: left;
@@ -450,6 +443,9 @@ a:hover
         text-align: left !important;
         margin-left: 0em !important;
         border-left: 0px solid silver;
+    }
+    row{
+        display: inline-block;
     }
 }
 @media(orientation: landscape){
