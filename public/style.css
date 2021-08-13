@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'CollectionFree';
+    src: url('./fonts/CollectionFree.otf');
+}
+@font-face {
+    font-family: 'Pleasewritemeasong';
+    src: url('./fonts/LEMONMILK-Light.otf');
+}
+
+h2{
+    margin: 3em;
+    font-family: 'Pleasewritemeasong';
+}
+
+header {
+    background : linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url('https://github.com/MelisseCabral/melissecabral.github.io/blob/master/images/dev.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
